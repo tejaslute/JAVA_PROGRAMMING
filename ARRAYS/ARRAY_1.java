@@ -27,7 +27,7 @@ public class ARRAY_1 {
 	
     ARRAY_1 s=new ARRAY_1(); //Created an object .
      int array[]=s.input();  // Called an input method which returns array .
-     s.display(array);       // Displayiong opf array 
+     s.display(array);       // Displayiong of array 
      
 	}
 
