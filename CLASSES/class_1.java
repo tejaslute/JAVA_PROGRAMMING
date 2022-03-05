@@ -4,7 +4,7 @@ public class class_1 {
 	void add()
 	{
 		int a=10,b=20;
-		System.out.println("Addition is "+ (a+b));
+		System.out.println(" Addition is "+ (a+b));
 	}
 	void sub()
 	{
