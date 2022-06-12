@@ -4,7 +4,7 @@ public class defalut {
     String name;
      defalut()
      {
-    	 System.out.println(" Default constructor called ");
+    	 System.out.println(" Default constructor  called ");
     	 roo_no=10;
     	 name="Akash";
      }
