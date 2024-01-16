@@ -229,6 +229,48 @@ public class TestInterface {
 
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+	interface I1{
+	void display();
+}
+
+interface I2{
+	void display();
+}
+
+class B1 implements I2,I1 {
+	
+	public void display() {
+		System.out.println("Displaying I1 ");
+	}
+	
+	
+}
+public class poly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//A b=new B1();
+		//b.display();
+		
+		B1 a = new B1();
+		a.display();
+
+	}
+
+}
+
 }
 
 
